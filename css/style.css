@@ -1,0 +1,20 @@
+body{
+    background-image: url(../img/hero.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.hero-text{
+    color: rgb(255, 251, 251);
+    padding-top: 250px;
+}
+.nav-link{
+    color: rgb(255, 251, 251);
+}
+.nav-link:hover{
+    color: teal;
+}
+.active{
+    color: teal;
+}
