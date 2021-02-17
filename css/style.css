@@ -1,27 +1,95 @@
-body{
-    background-image: url(../img/hero.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
+body {
+    font-size: 16px;
+    font-weight: 300;
+    color: #888;
+    line-height: 30px;
+    text-align: center;
 }
-.hero-text{
-    color: rgb(255, 251, 251);
-    padding-top: 250px;
+
+strong {
+    font-weight: 600;
 }
-.nav-link{
-    color: rgb(255, 251, 251);
+h1,
+h2 {
+    margin-top: 10px;
+    font-size: 38px;
+    font-weight: 300;
+    color: #555;
+    line-height: 50px;
 }
-.nav-link:hover{
-    color:#3399FF;
+.navbar {
+    background: #444;
+    -o-transition: all .6s;
+    -moz-transition: all .6s;
+    -webkit-transition: all .6s;
+    -ms-transition: all .6s;
+    transition: all .6s;
+    backface-visibility: hidden;
 }
-.active{
-    color:#3399FF;
+
+.navbar.navbar-no-bg {
+    background: #444;
+    background: rgba(0, 0, 0, 0.2);
 }
-.btn{
-    background-color: #3399FF;
+
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    color: rgba(255, 255, 255, 0.8);
+    border: 0;
 }
-.btn:hover{
-    color: #3399FF;
-    background-color: rgb(255, 251, 251);
+.navbar-dark .navbar-nav .nav-link:hover {
+    color:#9b59b6;
+}
+
+.navbar-brand {
+    width: 136px;
+    border: 0;
+    text-indent: -99999px;
+}
+.top-content {
+    padding: 210px 0;
+}
+
+.top-content .text {
+    color:black;
+}
+
+.top-content .text h1 {
+    margin-top: 25px;
+    color:black;
+}
+
+.top-content .description {
+    margin: 30px 0 10px 0;
+}
+
+.top-content .top-big-link {
+    margin-top: 45px;
+}
+.btn-link-1 {
+    display: inline-block;
+    height: 50px;
+    margin: 0 5px;
+    padding: 0 28px;
+    background: #9b59b6;
+    background: rgba(155, 89, 182, 0.7);
+    border: 0;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 48px;
+    color: #fff;
+    border-radius: 4px;
+    transition: all .3s;
+}
+
+.btn-link-1:hover,
+.btn-link-1:active,
+.btn-link-1:active:focus,
+ {
+    background: #9b59b6;
+    background: rgba(155, 89, 182, 0.9);
+    outline: 0;
+    color: #fff;
+    box-shadow: none;
 }
