@@ -1,16 +1,12 @@
 body {
     font-size: 16px;
     font-weight: 300;
-    color: #888;
     line-height: 30px;
     text-align: center;
+    background-image: url(../img/ankara-bck.jpg);
 }
 
-strong {
-    font-weight: 600;
-}
-h1,
-h2 {
+h1{
     margin-top: 10px;
     font-size: 38px;
     font-weight: 300;
@@ -34,40 +30,31 @@ h2 {
 
 
 .navbar-dark .navbar-nav .nav-link {
-    color: #fff;
-    color: rgba(255, 255, 255, 0.8);
+    color: black;   
     border: 0;
 }
 .navbar-dark .navbar-nav .nav-link:hover {
     color:#9b59b6;
 }
 
-.navbar-brand {
-    width: 136px;
-    border: 0;
-    text-indent: -99999px;
-}
-.top-content {
+.jumbotron {
     padding: 210px 0;
+    background-color;
 }
 
-.top-content .text {
+.jumbotron .hero-text p {
     color:black;
 }
 
-.top-content .text h1 {
+.jumbotron .hero-text h1 {
     margin-top: 25px;
     color:black;
 }
 
-.top-content .description {
-    margin: 30px 0 10px 0;
-}
-
-.top-content .top-big-link {
+.jumbotron .jumbotron-link {
     margin-top: 45px;
 }
-.btn-link-1 {
+.btn-link{
     display: inline-block;
     height: 50px;
     margin: 0 5px;
@@ -81,15 +68,11 @@ h2 {
     color: #fff;
     border-radius: 4px;
     transition: all .3s;
+    text-decoration: none;
 }
 
-.btn-link-1:hover,
-.btn-link-1:active,
-.btn-link-1:active:focus,
- {
+.btn-link:hover{
+    background: rgba(155, 89, 182, 0.7);
     background: #9b59b6;
-    background: rgba(155, 89, 182, 0.9);
-    outline: 0;
-    color: #fff;
-    box-shadow: none;
+    color:white;
 }
