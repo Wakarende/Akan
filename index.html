@@ -1,20 +1,11 @@
 <!doctype html>
 <html lang="en">
- 
     <head>
- 
-        <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
- 
-        <title>Bootstrap 4 One Page Website Tutorial</title>
- 
-        <!-- CSS         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300">-->
-
+        <title>Akan Name Generator</title>
         <link rel="stylesheet" href="./css/bootstrap.css">
         <link rel="stylesheet" href="./css/style.css">
-  
     </head>
     <body>
       <nav class="navbar navbar-dark fixed-top navbar-expand-md navbar-no-bg">
@@ -50,35 +41,17 @@
             </div>
         </div>            
       </div>
-     <form class="row row-cols-lg-auto g-3 align-items-center">
-  <div class="col-12">
-    <label class="visually-hidden" for="inlineFormInputGroupUsername">Username</label>
-    <div class="input-group">
-      <div class="input-group-text">@</div>
-      <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Username">
-    </div>
-  </div>
-  <div class="col-12">
-    <label class="visually-hidden" for="inlineFormSelectPref">Preference</label>
-    <select class="form-select" id="inlineFormSelectPref">
-      <option selected>Gender</option>
-      <option value="1">Male</option>
-      <option value="2">Female</option>
-    </select>
-  </div>
-
-  <div class="col-12">
-    <div class="form-check">
-      <input class="form-check-input" type="checkbox" id="inlineFormCheck">
-      <label class="form-check-label" for="inlineFormCheck">
-        Remember me
-      </label>
-    </div>
-  </div>
-
-  <div class="col-12">
-    <button type="submit" class="btn btn-primary">Submit</button>
-  </div>
-</form>
+      <form>
+        <div class= container>
+          <input class="form-control" type="number"  placeholder="Day Of Birth" id="day-of-birth" required min="0" max="31.">
+          <input class="form-control" type="number" placeholder="Month of Birth" id="month-of-birth" required min="0" max="12">
+          <input class="form-control" type="number" placeholder="Year of Birth" id="year-of-birth" required min="0" max="100">
+          <span class="radio-text">Male</span>
+          <input id = "male-input" type="radio" name="gender" value="gender" required>
+          <span class="radio-text">Female</span>
+          <input id = "female-input" type="radio" name="gender" value="gender" required><br>
+          <button class="submit">Generate</button>
+        </div>
+      </form>
     </body>
 </html>

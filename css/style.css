@@ -3,24 +3,18 @@ body {
     font-weight: 300;
     line-height: 30px;
     text-align: center;
-    background-image: url(../img/ankara-bck.jpg);
+    background-image: url(../img/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
 }
 
 h1{
     margin-top: 10px;
     font-size: 38px;
     font-weight: 300;
-    color: #555;
+    color: #fff;
     line-height: 50px;
-}
-.navbar {
-    background: #444;
-    -o-transition: all .6s;
-    -moz-transition: all .6s;
-    -webkit-transition: all .6s;
-    -ms-transition: all .6s;
-    transition: all .6s;
-    backface-visibility: hidden;
 }
 
 .navbar.navbar-no-bg {
@@ -30,7 +24,7 @@ h1{
 
 
 .navbar-dark .navbar-nav .nav-link {
-    color: black;   
+    color: #fff;   
     border: 0;
 }
 .navbar-dark .navbar-nav .nav-link:hover {
@@ -38,17 +32,13 @@ h1{
 }
 
 .jumbotron {
-    padding: 210px 0;
+    padding: 150px 0;
 }
 
 .jumbotron .hero-text p {
-    color:black;
+    color: #fff;
 }
 
-.jumbotron .hero-text h1 {
-    margin-top: 25px;
-    color:black;
-}
 
 .jumbotron .jumbotron-link {
     margin-top: 45px;
@@ -65,13 +55,42 @@ h1{
     font-weight: 600;
     line-height: 48px;
     color: #fff;
-    border-radius: 4px;
+    border-radius: 5px;
     transition: all .3s;
     text-decoration: none;
 }
 
 .btn-link:hover{
-    background: rgba(155, 89, 182, 0.7);
     background: #9b59b6;
     color:white;
+}
+
+#male-input{
+    cursor: pointer;
+}
+#female-input{
+    cursor: pointer;
+}
+.submit{
+    background:#9b59b6;
+    background: rgba(155, 89, 182, 0.7);
+    border-radius: 5px;
+    border-color: none;
+    color: #fff;
+    font: auto;
+    font-weight: 600px;
+    border:0;
+    margin-top: 5px;
+    font-size: 12px;
+    transform: all .3s;
+}
+.submit:hover{
+    background: #9b59b6;
+}
+.form-control{
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.radio-text{
+    color: #fff;
 }
