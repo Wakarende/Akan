@@ -55,7 +55,7 @@
         <div class= container>
           <h2 class="generator-title">Generator</h2>
           <p class="generator-text">Input your details below to find out your Akan name!</p>
-          <input class="form-control" type="number"  placeholder="Day Of Birth" id="day-of-birth" required min="0" max="31.">
+          <!-- <input class="form-control" type="number"  placeholder="Day Of Birth" id="day-of-birth" required min="0" max="31.">
           <input class="form-control" type="number" placeholder="Month of Birth" id="month-of-birth" required min="0" max="12">
           <input class="form-control" type="number" placeholder="Year of Birth" id="year-of-birth" required min="0" max="100">
           <span class="radio-text">Male</span>
@@ -64,7 +64,23 @@
           <input id = "female-input" type="radio" name="gender" value="gender" required><br>
           <button class="submit">Generate</button>
         </div>
+      </form> -->
+      <form onsubmit="getName(Week)">
+        <label for="date">Date of Birth</label>
+        <input id="date" type="date">
+        <span class="radio-text">Male</span>
+          <input id = "male-input" type="radio" name="gender" value="gender" required>
+          <span class="radio-text">Female</span>
+          <input id = "female-input" type="radio" name="gender" value="gender" required><br>
+          <button class="submit">Generate</button>
+        </div>
+        <div>
+        <p class="text-success">
+          Output: <span></span>
+        </p>
+      </div>
       </form>
+      
       <footer class="footer">
         <div class="container">
 
