@@ -3,23 +3,21 @@ body {
     font-weight: 300;
     line-height: 30px;
     text-align: center;
-    background-image: url(../img/hero.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
+    display: flexbox;  
 }
 
 h1{
-    margin-top: 10px;
+    margin-top: 5px;
     font-size: 38px;
     font-weight: 300;
     color: #fff;
-    line-height: 50px;
+    line-height:50px;
 }
 
 .navbar.navbar-no-bg {
     background: #444;
     background: rgba(0, 0, 0, 0.2);
+    display: flexbox;
 }
 
 
@@ -28,18 +26,21 @@ h1{
     border: 0;
 }
 .navbar-dark .navbar-nav .nav-link:hover {
-    color:#9b59b6;
+    color:#20B2AA;
 }
 
 .jumbotron {
-    padding: 150px 0;
-}
+    padding: 100px 0;
+    background-image:url(../img/kente.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    display: flexbox;
 
+}
 .jumbotron .hero-text p {
     color: #fff;
 }
-
-
 .jumbotron .jumbotron-link {
     margin-top: 45px;
 }
@@ -48,8 +49,7 @@ h1{
     height: 50px;
     margin: 0 5px;
     padding: 0 28px;
-    background: #9b59b6;
-    background: rgba(155, 89, 182, 0.7);
+    background: #20B2AA;
     border: 0;
     font-size: 15px;
     font-weight: 600;
@@ -59,12 +59,10 @@ h1{
     transition: all .3s;
     text-decoration: none;
 }
-
 .btn-link:hover{
-    background: #9b59b6;
-    color:white;
+    background: #fff;
+    color:#20B2AA;
 }
-
 #male-input{
     cursor: pointer;
 }
@@ -72,8 +70,7 @@ h1{
     cursor: pointer;
 }
 .submit{
-    background:#9b59b6;
-    background: rgba(155, 89, 182, 0.7);
+    background:#20B2AA;
     border-radius: 5px;
     border-color: none;
     color: #fff;
@@ -85,12 +82,36 @@ h1{
     transform: all .3s;
 }
 .submit:hover{
-    background: #9b59b6;
+    background:#fff;
+    color: #20B2AA;
+    border: 1px solid #20B2AA;
 }
 .form-control{
     border-radius: 5px;
     margin-bottom: 10px;
 }
 .radio-text{
-    color: #fff;
+    color: black;
+}
+#generator{
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+.generator-title{
+    color: #20B2AA;
+}
+.about{
+    display: flexbox;
+    margin-top: 80px;
+}
+
+.about h2{
+    color: #20B2AA;
+    cursor: pointer;
+}
+.footer{
+    width: 100%;
+    background: #20B2AA;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
