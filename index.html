@@ -4,9 +4,20 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title>Akan Name Generator</title>
-        <link rel="stylesheet" href="./css/bootstrap.css">
+        <link rel="stylesheet" href="/css/bootstrap.css">
         <link rel="stylesheet" href="./css/style.css">
     </head>
+    <script src="/script.js">
+        let daysOfTheWeek = ["Sunday","Monday","Tuesday", "Wednesday", "Thursday", "Friday","Saturday"]
+
+        function getDay(event) {
+    event.preventDefault()
+    let date = document.getElementById('date').value
+    let myBirthday = new Date(date)
+    let message = '$(myBirthday)'
+    outputTag.innerHTML = message
+}
+        </script>
     <body>
       <nav class="navbar navbar-dark fixed-top navbar-expand-md navbar-no-bg">
         <div class="container">
@@ -55,13 +66,13 @@
         <div class= container>
           <h2 class="generator-title">Generator</h2>
           <p class="generator-text">Input your details below to find out your Akan name!</p>
-      <form onsubmit="getName(Week)">
+      <form onsubmit="getName(event)">
         <label for="date">Date of Birth</label>
-        <input id="date" type="date">
-        <span class="radio-text">Male</span>
-          <input id = "male-input" type="radio" name="gender" value="gender" required>
+        <input id="date" type="date" placeholder="Date Of Birth">
+        <!-- <span class="radio-text">Male</span>
+          <input id = "male" type="radio" name="gender" value="gender" required>
           <span class="radio-text">Female</span>
-          <input id = "female-input" type="radio" name="gender" value="gender" required><br>
+          <input id = "female" type="radio" name="gender" value="gender" required><br> -->
           <button class="submit">Generate</button>
         </div>
         <div>
