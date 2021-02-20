@@ -1,9 +1,9 @@
 
- let daysOfTheWeek = ["Sunday","Monday","Tuesday", "Wednesday", "Thursday", "Friday","Saturday"]
+ const daysOfTheWeek = ["Sunday","Monday","Tuesday", "Wednesday", "Thursday", "Friday","Saturday"]
 
-//  let femaleAkanNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"]
+//  const femaleAkanNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"]
 
-// let maleAkanNames = [ "Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame",]
+// const maleAkanNames = [ "Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame",]
 
 // let gender = document.getElementById
 // function  getGender() {

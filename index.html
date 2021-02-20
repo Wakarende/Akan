@@ -3,21 +3,11 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title>Akan Name Generator</title>
-        <link rel="stylesheet" href="/css/bootstrap.css">
+        <title></title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <!-- <link rel="stylesheet" href="/css/bootstrap.min.css"> -->
         <link rel="stylesheet" href="./css/style.css">
     </head>
-    <script src="/script.js">
-        let daysOfTheWeek = ["Sunday","Monday","Tuesday", "Wednesday", "Thursday", "Friday","Saturday"]
-
-        function getDay(event) {
-    event.preventDefault()
-    let date = document.getElementById('date').value
-    let myBirthday = new Date(date)
-    let message = '$(myBirthday)'
-    outputTag.innerHTML = message
-}
-        </script>
     <body>
       <nav class="navbar navbar-dark fixed-top navbar-expand-md navbar-no-bg">
         <div class="container">
@@ -88,5 +78,6 @@
         </div>
         &copy;Joy Kirii
       </footer>
+       <script src="./script.js"> </script>
     </body>
 </html>
