@@ -1,10 +1,5 @@
 
-//  const daysOfTheWeek = ["Sunday","Monday","Tuesday", "Wednesday", "Thursday", "Friday","Saturday"]
-
-// //  const femaleAkanNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"]
-
-// // const maleAkanNames = [ "Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame",]
-
+ 
 // // let gender = document.getElementById
 // // function  getGender() {
 
@@ -25,30 +20,33 @@
 //     let myBirthday = new Date(date)
 //     let message = '$(myBirthday)'
 //     outputTag.innerHTML = message
+
+
+//   var daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+//   var maleNames = ["Kwasi", " Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
+//   var femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 // }
+
 function akanNames() {
-//   var day = parseInt(document.getElementById("d").value);
-//   var month = parseInt(document.getElementById("m").value);
-//   var year = parseInt(document.getElementById("y").value);
-let dateOfBirth = parseInt(document.getElementById("date").value);
+let day = parseInt(document.getElementById("day").value);
+let month = parseInt(document.getElementById("month").value);
+let year = parseInt(document.getElementById("year").value);
 let male = document.getElementById("male");
 let female = document.getElementById("female");
-let result = document.getElementById("result");
+// let result = document.getElementById("result");
 
 
-  var dateOfTheWeek = new Date(year + "/" + month + "/" + day);
-  var r = dateOfTheWeek.getDay();
+  let dateOfTheWeek = new Date(year + "/" + month + "/" + day);
+  let result= dateOfTheWeek.getDay();
   alert(result);
 
+const daysOfWeek = ["Sunday","Monday","Tuesday", "Wednesday", "Thursday", "Friday","Saturday"]
+const femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"]
+const maleNames = [ "Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame",]
 
-
-  var daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-  var maleNames = ["Kwasi", " Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
-  var femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
-
-  if (year < 2020 && year > 1900) {
-    if (month < 13 && month > 0) {
-      if (day < 32 && day > 0) {
+  if (year < 2021 && year > 1900) {
+    if (month < 12 && month > 0) {
+      if (day < 31 && day > 0) {
         if (male.checked) {
           alert("Your Akan names is " + maleNames[result]+" and born on "+ daysOfWeek[result]);
         } else if (female.checked) {
