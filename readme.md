@@ -47,6 +47,5 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 For any further questions, contributions or feedback ,get in touch with me through the following contacts;
 
 - joykirii@gmail.com
-- +254723212289
 
 &copy;JoyKirii
